@@ -30,7 +30,7 @@ function App() {
               cartItems.map((item, index) => (
                 <div key={index} className='order-summary-row'>
                   <div className="order-item-container">
-                    <div className="item-thumbnail-cintainer">
+                    <div className="item-thumbnail-container">
                       <img src={item.thumbnail} alt={item.name} loading='lazy'/>
                     </div>
                     <div className='item-details-container'>
